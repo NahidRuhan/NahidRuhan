@@ -44,8 +44,8 @@
 
 ### 📊 GitHub Stats
 
-<p align="center">
-  <a href="https://github.com/NahidRuhan">
-    <img src="https://github-readme-stats.vercel.app/api?username=NahidRuhan&amp;show_icons=true&amp;theme=radium&amp;v=1" alt="NahidRuhan's GitHub stats" />
-  </a>
-</p>
+<div align="center">
+
+[![NahidRuhan's GitHub stats](https://github-readme-stats.vercel.app/api?username=NahidRuhan&show_icons=true&theme=radium)](https://github.com/NahidRuhan)
+
+</div>
