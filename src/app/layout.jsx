@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 export const metadata = {
   title: "Nahid Pervej Ruhan — Full-Stack Developer",
@@ -40,6 +41,7 @@ export default function RootLayout({ children }) {
     <html lang="en" data-scroll-behavior="smooth">
       <body className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
         {children}
+        <ScrollToTop />
       </body>
     </html>
   );
