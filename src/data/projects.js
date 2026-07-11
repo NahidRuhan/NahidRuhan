@@ -90,7 +90,7 @@ export const PROJECTS = [
     highlight: "Stripe Integration",
     year: "2024",
     type: "BACKEND",
-    image: "/issue.png",
+    image: "/blog.png",
     challenges: "Implementing a secure JWT-based authentication system with HTTP-only cookies and integrating Stripe webhooks for managing premium subscriptions required careful architectural planning.",
     futurePlans: "Build a modern frontend client (Next.js) to consume this API, and implement real-time notifications for post comments using WebSockets."
   },
