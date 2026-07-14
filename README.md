@@ -10,11 +10,13 @@
 ---
 
 ### 👨‍💻 About Me
-- 🔭 I'm currently working on building scalable, revenue-generating commercial platforms.
-- 🌱 I’m deeply focused on **Next.js, TypeScript, and the MERN stack**.
-- 👯 I enjoy mentoring aspiring software engineers as a technical programming instructor.
-- 🎓 B.Sc. in Computer Science and Engineering at Canadian University of Bangladesh.
-- 📫 How to reach me: **[nahidpervejruhan@gmail.com](mailto:nahidpervejruhan@gmail.com)**
+
+As a final-year Computer Science student, I specialize in building scalable, secure, and revenue-generating web applications. I bridge the gap between clean code and business value, whether that is architecting an e-commerce platform that drives monthly revenue or designing robust, strongly-typed RESTful APIs.
+
+- 💼 **Open to:** Full-Stack Developer and Software Engineering roles.
+- 🚀 **Currently Building:** High-performance commercial platforms using **Next.js, TypeScript, and the MERN stack**.
+- 👯 **Community:** Passionate about mentoring the next generation of software engineers as a technical programming instructor.
+- 📫 **Reach out:** [nahidpervejruhan@gmail.com](mailto:nahidpervejruhan@gmail.com)
 
 ---
 
@@ -27,18 +29,23 @@
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Next.js](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 **Backend & Databases:**  
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
 
-**Tools:**  
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+**Tools & Auth:**  
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens) ![Stripe](https://img.shields.io/badge/Stripe-626CD9?style=for-the-badge&logo=Stripe&logoColor=white) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 
 ---
 
 ### 🚀 Featured Projects
 
-- **[ElaRose](https://ela-rose-fornt-end-production.vercel.app/)** - A full-stack clothing brand e-commerce platform built with Next.js, Node.js, and MongoDB featuring a custom CRM and automated email workflows.
-- **[Spread Fast](https://spread-fast.web.app/)** ([GitHub](https://github.com/NahidRuhan/Spread-Fast-Client)) - A serverless logistics and courier delivery system built with React, Node.js, Firebase, and Stripe API.
-- **[Issue Tracker API](https://github.com/NahidRuhan/Issue-tracker-API)** - A strongly-typed RESTful API for tracking issues, engineered using TypeScript, Node.js, Express, and PostgreSQL.
+- **[ElaRose](https://ela-rose-fornt-end-production.vercel.app/)** | *Next.js, Node.js, MongoDB, Firebase*
+  Constructed a full-stack commercial clothing e-commerce platform that expanded the customer base and processed an average of BDT 50,000 in monthly revenue. Features a custom CRM for real-time sales analytics and dynamic inventory management.
+  
+- **[Spread Fast](https://spread-fast.web.app/)** ([GitHub](https://github.com/NahidRuhan/Spread-Fast-Client)) | *React, Node.js, Stripe API, TanStack Query*
+  A serverless logistics platform enabling seamless parcel booking, smart rider dispatching, and real-time visual tracking with strict Role-Based Access Control (RBAC).
+
+- **[Basha Khuji API](https://github.com/NahidRuhan/Basha-Khuji-backend)** | *TypeScript, Express, PostgreSQL, Prisma ORM*
+  Engineered a strongly-typed RESTful API for a property rental management system. Enforces strict resource ownership via JWT authentication and features complex multi-dimensional filtering and temporal sorting.
 
 ---
 
