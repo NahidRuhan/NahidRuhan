@@ -1,3 +1,5 @@
+<img src="./public/github_banner.jpeg" alt="Hello world">
+
 <h1 align="center">Hi 👋, I'm Nahid Pervej Ruhan</h1>
 <h3 align="center">Full-Stack Developer | Next.js & MERN Stack | Technical Instructor</h3>
 
