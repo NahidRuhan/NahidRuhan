@@ -16,6 +16,21 @@ export const PROJECTS = [
     futurePlans: "Implement an AI-powered product recommendation engine based on user browsing history, and integrate an automated SMS gateway for real-time order tracking updates."
   },
   {
+    id: "basha-khuji",
+    name: "Basha Khuji",
+    tagline: "Property Rental Management Platform",
+    description: "A full-stack property rental platform supporting 3 isolated user roles (tenants, landlords, admins). Features end-to-end lease payments via Stripe and a highly responsive, debounced search engine using URL-driven state management.",
+    stack: ["Next.js", "TypeScript", "Shadcn", "Zod", "Zustand", "Node.js", "Prisma", "PostgreSQL", "Stripe"],
+    live: "https://basha-khuji.vercel.app",
+    github: "https://github.com/NahidRuhan/Basha-Khuji-frontend",
+    highlight: "Full-Stack System",
+    year: "2026",
+    type: "FULL STACK",
+    image: "/basha-khuji.png",
+    challenges: "Building a complex booking lifecycle with role-specific approvals was technically demanding. Additionally, syncing React state with Next.js URL parameters for the multi-parameter search engine while implementing debouncing required meticulous architectural planning.",
+    futurePlans: "Integrate real-time WebSockets for seamless messaging and notifications between tenants and landlords, and implement an automated AI-driven property valuation tool."
+  },
+  {
     id: "aeronyx-aviation",
     name: "Aeronyx Aviation Limited",
     tagline: "Premium Aviation & Flight Services Platform",
@@ -62,21 +77,6 @@ export const PROJECTS = [
     image: "/graduate-consultancy.png",
     challenges: "Achieving a perfect 100 Lighthouse score for SEO and Performance required aggressive asset optimization, careful font loading strategies, and minimizing client-side JavaScript payloads.",
     futurePlans: "Integrate a headless CMS (like Sanity or Contentful) to allow the consultancy team to easily publish blog posts and case studies without developer intervention."
-  },
-  {
-    id: "basha-khuji",
-    name: "Basha Khuji API",
-    tagline: "Property Rental Management API",
-    description: "Engineered a strongly-typed RESTful API backed by a PostgreSQL database managed via Prisma ORM for complex relational modeling. Features strict resource ownership, advanced RBAC (Tenant, Landlord, Admin) via JWT, and dynamic endpoints supporting multi-dimensional filtering, pagination, and robust soft-deletion mechanisms.",
-    stack: ["TypeScript", "Node.js", "Express", "PostgreSQL", "Prisma", "JWT", "Stripe"],
-    live: "https://basha-khuji-backend.vercel.app/",
-    github: "https://github.com/NahidRuhan/Basha-Khuji-backend",
-    highlight: "Prisma ORM",
-    year: "2026",
-    type: "BACKEND",
-    image: "/bashaKhuji.png",
-    challenges: "Designing a robust Role-Based Access Control (RBAC) architecture that scopes data access securely across Tenants, Landlords, and Admins was critical. Implementing dynamic, multi-dimensional query filters for property searches along with temporal sorting required optimizing Prisma queries to ensure high performance.",
-    futurePlans: "Develop a modern React/Next.js frontend to consume the API, and integrate real-time WebSockets for seamless messaging and notifications between tenants and landlords."
   },
   {
     id: "blog-api",
