@@ -1,5 +1,21 @@
 export const PROJECTS = [
   {
+    id: "type-code",
+    name: "Type Code",
+    tagline: "Type-Along Coding Education Platform",
+    description:
+      "A SaaS coding education platform where students learn by typing real code line-by-line against a live compiler. Covers C, C++, Python, Java, and OOP across 432+ chapters. Features multi-language code execution, SSLCommerz payments, Supabase Auth with RLS, and a subscription-based pricing model.",
+    stack: ["Next.js", "React", "Supabase", "PostgreSQL", "CodeMirror", "Tailwind CSS"],
+    live: "https://type-code-nine.vercel.app",
+    github: null,
+    highlight: "Expected Launch: November 2026",
+    year: "2025",
+    type: "ONGOING",
+    image: "/typecode.png",
+    challenges: "Implementing a real-time code execution pipeline across multiple languages (C, C++, Python, Java) while maintaining security and reliability was the core challenge. Building a robust Wandbox fallback system and integrating SSLCommerz for payments in a Next.js App Router architecture with Supabase RLS required careful architectural planning.",
+    futurePlans: "Launch with a custom domain and flip SSLCommerz to live mode for real payments. Add analytics, an onboarding flow, and an automated test suite. Build a mobile-friendly code editor experience for on-the-go learning."
+  },
+  {
     id: "elarose",
     name: "ElaRose",
     tagline: "Clothing Brand E-commerce Platform",
