@@ -97,6 +97,24 @@ export const PROJECTS = [
     futurePlans: "Integrate a headless CMS (like Sanity or Contentful) to allow the consultancy team to easily publish blog posts and case studies without developer intervention."
   },
   {
+    id: "eduayna",
+    name: "EduAyna",
+    tagline: "Student Management Dashboard",
+    description:
+      "A full-stack student management system featuring robust CRUD operations, pagination, filtering, and highly secure HTTP-Only JWT authentication.",
+    overview:
+      "A sleek, modern, and responsive Student Management Dashboard built with Next.js 16 (App Router) and NestJS 11. It features full CRUD operations, pagination, filtering, sorting, and robust JWT-based authentication using HTTP-only cookies to secure data modifications. The backend is powered by Prisma ORM and PostgreSQL.",
+    stack: ["Next.js", "Redux", "Tailwind CSS", "NestJS", "Prisma", "PostgreSQL"],
+    live: "https://student-management-frontend-rho-lilac.vercel.app",
+    github: "https://github.com/NahidRuhan/student-management-frontend",
+    highlight: "NestJS Backend",
+    year: "2026",
+    type: "FULL STACK",
+    image: "/eduayna.png",
+    challenges: "Integrating Redux Toolkit seamlessly with Next.js 16's App Router and Server Components architecture. Ensuring that authentication state was securely hydrated from backend HTTP-only cookies on first load without causing React hydration mismatch errors required careful proxy configuration.",
+    futurePlans: "Add multi-select checkboxes for bulk deletion/updates, visual analytics charting for enrollment ratios, full Role-Based Access Control, and CSV export/import capabilities."
+  },
+  {
     id: "blog-api",
     name: "Blog API",
     tagline: "Modular Blog Backend with Subscriptions",
