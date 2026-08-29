@@ -40,14 +40,25 @@ As a final-year Computer Science student, I specialize in building scalable, sec
 
 ### 🚀 Featured Projects
 
-- **[ElaRose](https://ela-rose-fornt-end-production.vercel.app/)** | *Next.js, Node.js, MongoDB, Firebase*
-  Constructed a full-stack commercial clothing e-commerce platform that expanded the customer base and processed an average of BDT 50,000 in monthly revenue. Features a custom CRM for real-time sales analytics and dynamic inventory management.
-  
-- **[Spread Fast](https://spread-fast.web.app/)** ([GitHub](https://github.com/NahidRuhan/Spread-Fast-Client)) | *React, Node.js, Stripe API, TanStack Query*
-  A serverless logistics platform enabling seamless parcel booking, smart rider dispatching, and real-time visual tracking with strict Role-Based Access Control (RBAC).
+- **[Type Code](https://type-code-nine.vercel.app)**  
+  *Next.js, Supabase, PostgreSQL, CodeMirror*  
+  A SaaS coding education platform where students learn by typing real code line-by-line against a live compiler with instant keystroke feedback. Covers C, C++, Python, Java, and OOP across 432+ chapters. Includes a Practice IDE powered by CodeMirror, viva-recap quizzes for exam prep, teacher-managed rooms with live-proctored coding contests featuring tab-switch anti-cheat via Supabase Realtime, an achievements system, and dedicated admin and teacher panels. Monetized through SSLCommerz-powered subscription plans with a subscription-based pricing model.
 
-- **[Basha Khuji API](https://github.com/NahidRuhan/Basha-Khuji-backend)** | *TypeScript, Express, PostgreSQL, Prisma ORM*
-  Engineered a strongly-typed RESTful API for a property rental management system. Enforces strict resource ownership via JWT authentication and features complex multi-dimensional filtering and temporal sorting.
+- **[ElaRose](https://ela-rose-fornt-end-production.vercel.app/)**  
+  *Next.js, Node.js, MongoDB, Firebase*  
+  Full-stack commercial platform that boosted brand sales by 30% and drives ~BDT 50,000 in monthly revenue through an optimized catalog and seamless COD flow.
+  
+- **[Basha Khuji](https://basha-khuji.vercel.app)** ([GitHub](https://github.com/NahidRuhan/Basha-Khuji-frontend))  
+  *Next.js, TypeScript, Node.js, PostgreSQL, Stripe*  
+  A full-stack property rental platform supporting 3 isolated user roles (tenants, landlords, admins). Features end-to-end lease payments via Stripe and a highly responsive, debounced search engine using URL-driven state management.
+  
+- **[Spread Fast](https://spread-fast.web.app/)** ([GitHub](https://github.com/NahidRuhan/Spread-Fast-Client))  
+  *React, Node.js, Stripe API, TanStack Query*  
+  Serverless logistics platform with smart rider dispatching, real-time tracking, RBAC via Firebase Admin SDK, and Stripe checkout with optimistic UI.
+
+- **[Aeronyx Aviation Limited](https://aeronyx-aviation-limited.vercel.app/)**  
+  *Next.js, React, Tailwind CSS, Neon PostgreSQL*  
+  A modern, high-performance platform for private charter bookings, airport services, and flight management with a focus on luxury UI/UX.
 
 ---
 
