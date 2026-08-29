@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-07-19T23:40:32.889Z",
+  "entries": [
+    "api-patterns",
+    "auth-implementation-patterns",
+    "backend-dev-guidelines",
+    "database-design",
+    "docs",
+    "e2e-testing-patterns",
+    "form-cro",
+    "frontend-design",
+    "frontend-developer",
+    "nextjs-app-router-patterns",
+    "nextjs-best-practices",
+    "react-best-practices",
+    "senior-fullstack",
+    "seo-audit",
+    "shadcn",
+    "stripe-integration",
+    "tailwind-patterns",
+    "ui-a11y"
+  ]
+}

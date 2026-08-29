@@ -35,8 +35,8 @@ export default function Hero() {
                 View my work <ArrowUpRight className="size-4" />
               </Link>
               <a
-                href="/ruhan_resume.pdf"
-                download="Nahid_Pervej_Ruhan_Resume.pdf"
+                href="/Nahid_Pervej_Ruhan_Fullstack_Developer_Resume.pdf"
+                download="Nahid_Pervej_Ruhan_Fullstack_Developer_Resume.pdf"
                 className="glass rounded-full px-6 py-3 text-sm font-semibold inline-flex items-center gap-2 hover:border-primary/40 transition-colors"
               >
                 Download Resume <Download className="size-4" />
