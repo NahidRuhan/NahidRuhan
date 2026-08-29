@@ -4,6 +4,8 @@ export const PROJECTS = [
     name: "Type Code",
     tagline: "Type-Along Coding Education Platform",
     description:
+      "A SaaS coding education platform where students learn by typing real code line-by-line against a live compiler. Covers C, C++, Python, Java, and OOP across 432+ chapters with a subscription-based pricing model.",
+    overview:
       "A SaaS coding education platform where students learn by typing real code line-by-line against a live compiler with instant keystroke feedback. Covers C, C++, Python, Java, and OOP across 432+ chapters. Includes a Practice IDE powered by CodeMirror, viva-recap quizzes for exam prep, teacher-managed rooms with live-proctored coding contests featuring tab-switch anti-cheat via Supabase Realtime, an achievements system, and dedicated admin and teacher panels. Monetized through SSLCommerz-powered subscription plans with a subscription-based pricing model.",
     stack: ["Next.js", "React", "Supabase", "PostgreSQL", "CodeMirror", "Tailwind CSS"],
     live: "https://type-code-nine.vercel.app",

@@ -83,7 +83,7 @@ export default async function ProjectDetail({ params }) {
                  Overview
               </h2>
               <p className="text-foreground/80 leading-relaxed text-lg">
-                {project.description}
+                {project.overview || project.description}
               </p>
             </section>
 
