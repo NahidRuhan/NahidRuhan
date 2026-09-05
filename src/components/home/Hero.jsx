@@ -26,9 +26,7 @@ export default function Hero() {
               Nahid Pervej <span className="text-gradient">Ruhan</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-              A <span className="text-foreground font-medium">Full-Stack Developer</span> from Dhaka specializing in Next.js,
-              TypeScript and the MERN stack — shipping revenue-generating products
-              and mentoring the next wave of engineers.
+              A <span className="text-foreground font-medium">Full-Stack Engineer</span> building scalable, revenue-generating platforms with Next.js and the MERN stack. I specialize in secure API design, complex databases, and mentoring the next generation of developers.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="#projects" className="btn-primary rounded-full px-6 py-3 text-sm font-semibold inline-flex items-center gap-2">

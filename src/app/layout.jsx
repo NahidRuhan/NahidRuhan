@@ -36,12 +36,15 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+import { Toaster } from "sonner";
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" data-scroll-behavior="smooth">
       <body className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable}`}>
         {children}
         <ScrollToTop />
+        <Toaster theme="dark" position="bottom-right" />
       </body>
     </html>
   );

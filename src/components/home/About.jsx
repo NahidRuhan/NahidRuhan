@@ -18,7 +18,7 @@ export default function About() {
                 I thrive on architecting products that solve real-world problems and drive revenue. Whether it&apos;s designing secure REST APIs or optimizing a Next.js frontend, I enjoy taking ownership of the entire product lifecycle.
               </p>
               <p>
-                Outside of IDEs and terminal windows, I enjoy exploring new technologies, playing sports, and painting. I&apos;m also deeply passionate about teaching—having mentored over 47 students, I find joy in breaking down complex concepts for the next generation of developers.
+                Outside of IDEs and terminal windows, I enjoy exploring new technologies, playing video games, and watching movies/series. I&apos;m also deeply passionate about mentoring—having mentored over 47 students, I find joy in breaking down complex concepts for the next generation of developers.
               </p>
             </div>
 

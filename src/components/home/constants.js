@@ -5,6 +5,7 @@ import {
   Globe,
   Wrench,
   Mail,
+  Cloud,
 } from "lucide-react";
 import { Github, Linkedin } from "@/components/ui/icons";
 
@@ -19,7 +20,7 @@ export const SKILLS = [
       { name: "Python", slug: "python" },
       { name: "C/C++", slug: "cplusplus" },
       { name: "HTML5", slug: "html5" },
-      { name: "CSS3", slug: "css3", whiteIcon: true },
+      { name: "CSS3", slug: "css3" },
     ],
   },
   {
@@ -28,13 +29,15 @@ export const SKILLS = [
     items: [
       { name: "Node.js", slug: "nodedotjs" },
       { name: "Express", slug: "express", whiteIcon: true },
+      { name: "NestJS", slug: "nestjs" },
+      { name: "Socket.io", slug: "socketdotio", whiteIcon: true },
       { name: "REST APIs", slug: null },
       { name: "Firebase", slug: "firebase" },
-      { name: "Supabase", slug: "supabase" },
       { name: "OAuth 2.0", slug: null, customImg: "/oauth.webp" },
       { name: "JWT", slug: "jsonwebtokens", whiteIcon: true },
-      { name: "NeonDB", slug: "neon" },
       { name: "Stripe", slug: "stripe" },
+      { name: "SSLCommerz", slug: null, customImg: "/ssl.png" },
+      { name: "Zod", slug: "zod" },
     ],
   },
   {
@@ -44,6 +47,9 @@ export const SKILLS = [
       { name: "React.js", slug: "react" },
       { name: "Next.js", slug: "nextdotjs", whiteIcon: true },
       { name: "Tailwind CSS", slug: "tailwindcss" },
+      { name: "Shadcn UI", slug: "shadcnui", whiteIcon: true },
+      { name: "Material UI", slug: "mui" },
+      { name: "Redux", slug: "redux" },
       { name: "TanStack Query", slug: "reactquery" },
       { name: "Axios", slug: "axios", whiteIcon: true },
     ],
@@ -53,8 +59,10 @@ export const SKILLS = [
     title: "Databases",
     items: [
       { name: "MongoDB", slug: "mongodb" },
+      { name: "Mongoose", slug: "mongoose" },
       { name: "MySQL", slug: "mysql", whiteIcon: true },
       { name: "PostgreSQL", slug: "postgresql", whiteIcon: true },
+      { name: "Redis", slug: "redis" },
       { name: "Prisma", slug: "prisma", whiteIcon: true },
     ],
   },
@@ -64,9 +72,21 @@ export const SKILLS = [
     items: [
       { name: "Git", slug: "git" },
       { name: "GitHub", slug: "github", whiteIcon: true },
+      { name: "Linux", slug: "linux", whiteIcon: true },
       { name: "Cursor", slug: null, customImg: "/cursor.webp" },
       { name: "Postman", slug: "postman" },
       { name: "Antigravity", slug: null, customImg: "/antigravity.jpg" },
+    ],
+  },
+  {
+    icon: Cloud,
+    title: "Deployment",
+    items: [
+      { name: "Vercel", slug: "vercel", whiteIcon: true },
+      { name: "Render", slug: "render", whiteIcon: true },
+      { name: "Supabase", slug: "supabase" },
+      { name: "NeonDB", slug: "neon" },
+      { name: "Docker", slug: "docker" },
     ],
   },
 ];

@@ -15,7 +15,7 @@ export default function Projects() {
           subtitle="A snapshot of products I've designed, built and shipped — from commercial e-commerce to typed REST APIs."
         />
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {PROJECTS.slice(0, 6).map((p, index) => (
+          {PROJECTS.slice(0, 9).map((p, index) => (
             <article
               key={p.name}
               className="glass card-hover rounded-3xl flex flex-col group relative hover:z-100"
@@ -78,7 +78,7 @@ export default function Projects() {
           ))}
         </div>
         
-        {PROJECTS.length > 6 && (
+        {PROJECTS.length > 9 && (
           <div className="mt-12 flex justify-center">
             <Link
               href="/projects"

@@ -97,6 +97,38 @@ export const PROJECTS = [
     futurePlans: "Integrate a headless CMS (like Sanity or Contentful) to allow the consultancy team to easily publish blog posts and case studies without developer intervention."
   },
   {
+    id: "kanban",
+    name: "Kanban App",
+    tagline: "Real-Time Mini Kanban Board",
+    description:
+      "A production-ready Kanban Board with real-time collaboration. Build workflows, drag-and-drop tasks, and collaborate instantly across multiple clients.",
+    stack: ["Next.js", "NestJS", "Socket.io", "Prisma", "PostgreSQL", "Tailwind CSS", "Docker"],
+    live: "https://kanban-app-kohl.vercel.app",
+    github: "https://github.com/NahidRuhan/kanban-app",
+    highlight: "Real-Time Sync",
+    year: "2024",
+    type: "FULL STACK",
+    image: "/kanban.png",
+    challenges: "Implementing stable fractional indexing for seamless drag-and-drop reordering and real-time Socket.io broadcasting across multiple active clients required complex state management.",
+    futurePlans: "Introduce rich-text descriptions, file attachments for tasks, and advanced role-based permissions."
+  },
+    {
+    id: "karaoke-maker",
+    name: "Ruhan's Karaoke Maker",
+    tagline: "AI-Powered Audio Stem Separator",
+    description:
+      "Full-stack web application that utilizes Facebook's Demucs AI model to isolate vocals, drums, and bass from uploaded songs with a synchronized multi-track playback UI.",
+    stack: ["React", "Node.js", "Python", "PyTorch", "FFmpeg", "Tailwind CSS"],
+    live: null,
+    github: "https://github.com/NahidRuhan/Ruhans-Karaoke-Maker",
+    highlight: "Demucs AI",
+    year: "2022",
+    type: "AI/ML",
+    image: "/karaoke.png",
+    challenges: "Bridging the gap between a Node.js server and a Python-based PyTorch machine learning model was tricky. Handling large audio file uploads and processing them asynchronously without timing out the client requests required implementing a robust background job queue.",
+    futurePlans: "Deploy the AI processing backend to a scalable GPU cloud instance (like AWS EC2 or RunPod) to drastically reduce processing times, and add support for exporting individual stems."
+  },
+  {
     id: "eduayna",
     name: "EduAyna",
     tagline: "Student Management Dashboard",
@@ -129,22 +161,6 @@ export const PROJECTS = [
     image: "/blog.png",
     challenges: "Implementing a secure JWT-based authentication system with HTTP-only cookies and integrating Stripe webhooks for managing premium subscriptions required careful architectural planning.",
     futurePlans: "Build a modern frontend client (Next.js) to consume this API, and implement real-time notifications for post comments using WebSockets."
-  },
-  {
-    id: "karaoke-maker",
-    name: "Ruhan's Karaoke Maker",
-    tagline: "AI-Powered Audio Stem Separator",
-    description:
-      "Full-stack web application that utilizes Facebook's Demucs AI model to isolate vocals, drums, and bass from uploaded songs with a synchronized multi-track playback UI.",
-    stack: ["React", "Node.js", "Python", "PyTorch", "FFmpeg", "Tailwind CSS"],
-    live: null,
-    github: "https://github.com/NahidRuhan/Ruhans-Karaoke-Maker",
-    highlight: "Demucs AI",
-    year: "2022",
-    type: "AI/ML",
-    image: "/karaoke.png",
-    challenges: "Bridging the gap between a Node.js server and a Python-based PyTorch machine learning model was tricky. Handling large audio file uploads and processing them asynchronously without timing out the client requests required implementing a robust background job queue.",
-    futurePlans: "Deploy the AI processing backend to a scalable GPU cloud instance (like AWS EC2 or RunPod) to drastically reduce processing times, and add support for exporting individual stems."
   },
   {
     id: "recipe-manager",
